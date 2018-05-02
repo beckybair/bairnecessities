@@ -1,136 +1,150 @@
-@font-face { font-family: Playlist; src: url('../fonts/Playlist Script.otf'); } 
-@font-face { font-family: Playlist; font-weight: bold; src: url('../fonts/Playlist Script.otf');}
-
-body {
-  font-family: 'Montserrat', sans-serif;
+@font-face {
+    font-family: Playlist;
+    src: url('../fonts/Playlist Script.otf');
 }
 
-h1, h2 {
-  font-family: 'Playlist', sans-serif;
+@font-face {
+    font-family: Playlist;
+    font-weight: bold;
+    src: url('../fonts/Playlist Script.otf');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Playlist', sans-serif;
 }
 
 h5 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
-img, embed, object, video {
-  max-width: 100%;
-  margin: 30px auto;
-  border-radius: 10px;
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+    margin: 30px auto;
+    border-radius: 10px;
 }
 
 .logo {
-  width: 90px;
-  margin: 0;
+    width: 90px;
+    margin: 0;
 }
 
-.navbar {
-  height: 120px;
-}
-.navbar-dark  {
-  background-color: #8c6382;
+.navbar-dark {
+    background-color: #8c6382;
 }
 
 .jumbotron {
-  background: #ffffff url('../img/hero.jpg') no-repeat right top;
-  width: 100%;
-  background-size: cover;
-  color: #fff;
-  font-weight: 900;
-  height: 550px;
+    background: #ffffff url('../img/hero.jpg') no-repeat right top;
+    width: 100%;
+    background-size: cover;
+    color: #fff;
+    font-weight: 900;
+    height: 550px;
 }
 
 .shaded {
-  background-color: rgba(63, 56, 45, 0.295);
-  border-radius: 10px;
-  padding: 10px;
+    background-color: rgba(63, 56, 45, 0.295);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .big {
-  font-size: 250%;
+    font-size: 250%;
 }
 
 .bigger {
-  font-size: 350%;
+    font-size: 350%;
 }
 
 .biggest {
-  font-size: 650%;
+    font-size: 650%;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 section {
-  width: 100%;
-  padding: 20px;
+    width: 100%;
+    padding: 20px;
 }
 
 .list-wrapper {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 footer {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
-#philosophy, #benefits, #contact {
-  background-color: #8c6382;
-  width: 100%;
-  color: #fff;
+#philosophy,
+#benefits,
+#contact {
+    background-color: #8c6382;
+    width: 100%;
+    color: #fff;
 }
 
-#services, #about {
-  background-color: #fff2d4;
+#services,
+#about {
+    background-color: #fff2d4;
 }
 
 .phone::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f095";
-  padding-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f095";
+    padding-right: 10px;
 }
+
 .map::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f3c5";
-  padding-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    padding-right: 10px;
 }
+
 .mail::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f0e0";
-  padding-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    padding-right: 10px;
 }
+
 .web::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f0ac";
-  padding-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0ac";
+    padding-right: 10px;
 }
 
 @media (min-width: 450px) {
-  .list-wrapper {
-    width: 90%;
-  }
+    .list-wrapper {
+        width: 90%;
+    }
 }
 
 @media (min-width: 768px) {
-  .list-wrapper {
-    width: 100%;
-  }
-
-  .block-list {
-    width: 50%;
-  }
+    .list-wrapper {
+        width: 100%;
+    }
+    .block-list {
+        width: 50%;
+    }
 }
 
 @media (min-width: 992px) {
-  .list-wrapper {
-    width: 65%;
-  }
+    .list-wrapper {
+        width: 65%;
+    }
 }
